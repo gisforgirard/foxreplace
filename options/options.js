@@ -63,6 +63,7 @@ var gridOptions = {
   ],
   rowSelection: 'single',
   enableColResize: true,
+  stopEditingWhenGridLosesFocus: true,
   //enableFilter: true,
   //onRowSelected: // enable/disable buttons
   onRowDoubleClicked(params) {
